@@ -218,3 +218,48 @@
 #     print("28 days")
 # else:
 #     print("30 days")
+
+
+# 56
+# p, ch, b, m, co = int(input()), int(input()), int(
+#     input()), int(input()), int(input())
+# percentage = ((p+ch+b+m+co)/500)*100
+# if(percentage >= 90):
+#     print("Grade A")
+# elif(percentage >= 80):
+#     print("Grade B")
+# elif(percentage >= 70):
+#     print("Grade C")
+# elif(percentage >= 60):
+#     print("Grade D")
+# elif(percentage >= 40):
+#     print("Grade E")
+# else:
+#     print("Grade F")
+
+
+# 57
+# bs = int(input())
+# if(bs <= 10000):
+#     hra = bs * 20/100
+#     da = bs * 80/100
+# elif(bs <= 20000):
+#     hra = bs * 25/100
+#     da = bs * 90/100
+# else:
+#     hra = bs * 30/100
+#     da = bs * 95/100
+# gs = bs+hra+da
+# print("Gross Salary:", gs)
+
+
+# 58
+# e = int(input())
+# if(e <= 50):
+#     print("Rs.", e*0.50)
+# elif(e <= 100):
+#     print("Rs.", ((50)*0.50)+((e-50)*0.75))
+# elif(e <= 250):
+#     print("Rs.", (50*0.50)+(100*0.75)+((e-150)*1.20))
+# elif(e > 250):
+#     print((50*0.50)+(100*0.75)+(100*1.20)+((e-250)*1.50)+(e * 20/100))

@@ -37,3 +37,24 @@
 # import math
 # base,height=int(input()),int(input());
 # print("Hypotenuse:",math.sqrt(base**2 + height**2))
+
+
+# a, b, c = int(input()), int(input()), int(input())
+# if(a+b+c > 180 or a+b+c < 180):
+#     print("Invalid triangle")
+# else:
+#     print("Valid triangle")
+
+# a, b, c = int(input()), int(input()), int(input())
+# if(a+b > c and a+c > b and b+c > a):
+#     print("Valid triangle")
+# else:
+#     print("Invalid Triangle")
+
+# a, b, c = int(input()), int(input()), int(input())
+# if(a == b == c):
+#     print("equilateral triangle")
+# elif((a == b) or (b == c) or (a == c)):
+#     print("Isosceles triangle")
+# else:
+#     print("Scalene triangle")
