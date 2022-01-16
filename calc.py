@@ -164,3 +164,17 @@
 #     print("is strong")
 # else:
 #     print("is not strong")
+
+
+# n = int(input())
+# sum = 0
+# temp = n/2
+# while(temp > 0):
+#     if(n % temp == 0):
+#         sum += temp
+#     temp -= 1
+
+# if(sum == n):
+#     print("Perfect number")
+# else:
+#     print("Not perfect")
