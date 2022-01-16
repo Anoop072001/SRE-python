@@ -263,3 +263,36 @@
 #     print("Rs.", (50*0.50)+(100*0.75)+((e-150)*1.20))
 # elif(e > 250):
 #     print((50*0.50)+(100*0.75)+(100*1.20)+((e-250)*1.50)+(e * 20/100))
+
+
+# 59
+# amount = int(input())
+# if(amount >= 2000):
+#     print("Rs.2000 notes-", amount//2000, end=",")
+#     amount = amount % 2000
+
+# if(amount >= 500):
+#     print("Rs.500 notes-", amount//500, end=",")
+#     amount = amount % 500
+# if(amount >= 200):
+#     print("Rs.200 notes-", amount//200, end=",")
+#     amount = amount % 200
+# if(amount >= 100):
+#     print("Rs.100 notes-", amount//100, end=",")
+#     amount = amount % 100
+# if(amount >= 50):
+#     print("Rs.50 notes-", amount//50, end=",")
+#     amount = amount % 50
+# if(amount >= 20):
+#     print("Rs.20 notes-", amount//20, end=",")
+#     amount = amount % 20
+# if(amount >= 10):
+#     print("Rs.10 notes-", amount//10, end=",")
+#     amount = amount % 10
+
+# 60
+# sp, cp = int(input()), int(input())
+# if(sp > cp):
+#     print("profit:", sp-cp)
+# else:
+#     print("Loss", cp-sp)

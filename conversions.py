@@ -12,3 +12,12 @@
 
 # hours = int(input())
 # print("to mins:", hours*60, "to seconds:", hours*60*60, "to days:", hours/24)
+
+
+# 70
+# str = input()
+# first = str[0]
+# mid = str[1:len(str)-1]
+# last = str[len(str)-1]
+# word = first.upper()+mid+last.upper()
+# print(word)
