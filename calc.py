@@ -178,3 +178,17 @@
 #     print("Perfect number")
 # else:
 #     print("Not perfect")
+
+
+# n = int(input())
+# if(n % 5 == 0):
+#     print("Divisible")
+# else:
+#     print("Not divisible")
+
+
+# a = input()
+# if(a.isupper()):
+#     print("Uppercase letter")
+# else:
+#     print("Lower case letter")
